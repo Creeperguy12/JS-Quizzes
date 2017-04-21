@@ -1,0 +1,88 @@
+// Link: https://www.codeavengers.com/c/mattadlam3/science_quiz_
+name = prompt('What is your name?');
+
+var rightAnswers = 0;
+var wrongAnswers = 0;
+var totalQuestions = 0;
+questionOne = prompt('Is a fungi a living thing?')
+
+if (questionOne == 'yes' || questionOne == 'Yes') {
+  rightAnswers++
+}
+else {
+  wrongAnswers++
+}
+totalQuestions++
+
+questionTwo = prompt('What is a dependent variable?')
+
+if (questionTwo == 'The thing to be measured') {
+  rightAnswers++
+}
+else {
+  wrongAnswers++
+}
+totalQuestions++
+
+questionThree = prompt('Is H2O water?') 
+
+if (questionThree == 'yes' || questionThree == 'Yes') {
+  rightAnswers++
+}
+else {
+  wrongAnswers++
+}
+totalQuestions++
+
+questionFour = prompt('What element is represented by the symbol Xe? ')
+
+if (questionFour == 'Xenon' || questionFour == 'xenon') {
+  rightAnswers++
+}
+else {
+  wrongAnswers++
+}
+totalQuestions++
+
+questionFive = prompt('What is lithiums atomic number?')
+
+if(questionFive == '3') {
+  rightAnswers++
+}
+else {
+  wrongAnswers++
+}
+totalQuestions++
+
+questionSix = prompt('Who invented the cat flap?')
+
+if(questionSix = 'Isaac Newton') {
+  rightAnswers++
+}
+else {
+  wrongAnswers++
+}
+totalQuestions++
+
+questionSeven = prompt('What is 3 times 7?')
+
+if (questionSeven == '21') {
+  rightAnswers++
+}
+else{
+  wrongAnswers++
+}
+totalQuestions++
+
+questionEight = prompt('What is the acronym for checking if a thing is living?')
+
+if(questionEight == 'MRSCGREN' || questionEight == 'MRS C GREN') {
+  rightAnswers++
+}
+else{
+  wrongAnswers++
+}
+totalQuestions++
+alert('You have finished the quiz!')
+
+alert(' Congratulations ' + name + ', You got ' + rightAnswers + ' out of ' + totalQuestions )
